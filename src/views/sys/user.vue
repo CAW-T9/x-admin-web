@@ -138,7 +138,7 @@
         var reg =
           /^[a-zA-Z0-9]+([-_.][a-zA-Z0-9]+)*@[a-zA-Z0-9]+([-_.][a-zA-Z0-9]+)*\.[a-z]{2,}$/;
         if (!reg.test(value)) {
-          return callback(new Error("邮箱格式错误"));
+          return callback(new Error("邮箱 格式 错误"));
         }
         callback();
         
